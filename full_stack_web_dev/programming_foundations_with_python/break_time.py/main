@@ -1,0 +1,11 @@
+import time
+import webbrowser
+
+num_breaks = 0
+
+print("This program started on " + time.ctime())
+
+while num_breaks < 3:
+    time.sleep(2)
+    webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open("http://reddit.com")
+    num_breaks += 1
