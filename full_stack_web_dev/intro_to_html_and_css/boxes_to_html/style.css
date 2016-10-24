@@ -1,0 +1,27 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.title{
+    background-color: #33BEBE;
+    font-family: Helvetica;
+    font-style: Italic;
+    color: white;
+}
+.image{
+    max-width: 460px;
+}
+
+.description{
+    max-width: 705px;
+    color: #7C8B88;
+}
+
+.app{
+    display: flex;
+    font-family: Helvetica;
+}
